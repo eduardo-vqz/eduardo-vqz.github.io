@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    
+
     <title>Document</title>
 </head>
 
@@ -35,7 +35,8 @@
                             <a class="nav-link" href="#">Contacto</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Dropdown
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -56,12 +57,13 @@
         </nav>
     </header>
     <div class="container">
-        <div class="row">
-            <div class="col-3">
+        <div class="row d-flex">
+            <div class="col-md-2 d-none flex-fill d-md-block">
                 <img src="img/FotoCol.jpg" class="img-fluid rounded-circle" alt="">
             </div>
-            <div class="col-9 msj d-flex align-items-center shadow-lg p-3 mb-5 rounded">
-                <strong>Educación codigo y creatividad para transformar el aprendizaje</strong>
+            <!-- <div class="col-md-10 col-sm-12 msj flex-fill align-items-center shadow-lg p-3 mb-5 rounded principal"> -->
+            <div class="col-md-10 col-sm-12 msj flex-fill align-items-center  p-3 mb-5 rounded principal">
+                Educación, código y creatividad para transformar el aprendizaje
             </div>
         </div>
 
@@ -72,7 +74,25 @@
                 </h1>
             </div>
         </div>
-
+        <div class="card mb-3 shadow-lg p-3 mb-5 rounded">
+            <div class="row g-0">
+                <!-- Imagen a la izquierda -->
+                <div class="col-md-4">
+                    <img src="img/spss.png" class="img-fluid rounded-start tarjetas" height="600px" alt="Noticia">
+                </div>
+                <!-- Texto a la derecha -->
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Curso de Certificación en Software SPSS para Investigación</h5>
+                        <p class="card-text">
+                            Curso de certificación en SPSS, dirigido a estudiantes de la cátedra de Investigación Cuantitativa de la Universidad Gerardo Barrios. Con el objetivo de fortalecer sus competencias en el análisis de datos mediante el uso del software SPSS, abordando desde conceptos básicos, conocimientos sobre variables, visualización de datos, hasta métodos estadísticos aplicados. 
+                        </p>
+                        <p class="card-text"><small class="text-muted">Publicado hace 3 horas</small></p>
+                        <a href="https://ugb.edu.sv/curso-de-certificacion-en-software-spss-para-investigacion/" class="btn btn-outline-primary btn-sm">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 
